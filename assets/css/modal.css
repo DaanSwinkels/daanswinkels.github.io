@@ -87,3 +87,22 @@
   .modalContent{
     background-color: #1C1C27;
   }
+
+
+@media screen and (max-width: 800px) {
+  .modal-content {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .modal-content {
+    width: 90% ;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .modal-content {
+    width: 80% ;
+  }
+}
